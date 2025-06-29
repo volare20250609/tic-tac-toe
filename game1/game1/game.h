@@ -10,18 +10,18 @@
 
 void Menu(void);
 
-char* GetPointer(char* board, int x, int y, int row);
+//char* GetPointer(char (*board)[COL], int x, int y);
 
-void Init(char* board, int row, int col);
+void Init(char (*board)[COL], int row, int col);
 
-void Display(char* board, int row, int col);
+void Display(char (*board)[COL], int row, int col);
 
 void Clear_tmp();
 
-void PlayerMove(char* board, int row, int col);
+void PlayerMove(char (*board)[COL], int row, int col);
 
-void ComputerMove(char* board, int row, int col);
+void ComputerMove(char (*board)[COL], int row, int col);
 
-int IsFull(char* board, int row, int col);
+int IsFull(char (*board)[COL], int row, int col);
 
-int IsWin(char* board, int row, int col, int arraynum);
+int IsWin(char (*board)[COL], int row, int col, int arraynum);

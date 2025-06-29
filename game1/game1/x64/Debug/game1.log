@@ -1,1 +1,9 @@
-﻿  game1.vcxproj -> E:\Library\OneDrive\Documents\Code\C\game1\x64\Debug\game1.exe
+﻿  game.c
+  test.c
+E:\Library\OneDrive\Documents\Code\C\game1\game1\game.c(478,1): warning C4102: “CountEveryRow”: 未引用的标签
+E:\Library\OneDrive\Documents\Code\C\game1\game1\game.c(511,1): warning C4102: “CountEveryCol”: 未引用的标签
+E:\Library\OneDrive\Documents\Code\C\game1\game1\game.c(544,1): warning C4102: “CountEveryLowerDiagonal”: 未引用的标签
+E:\Library\OneDrive\Documents\Code\C\game1\game1\game.c(577,1): warning C4102: “CountEveryUpperDiagonal”: 未引用的标签
+E:\Library\OneDrive\Documents\Code\C\game1\game1\game.c(610,1): warning C4102: “ContinueGame”: 未引用的标签
+  正在生成代码...
+  game1.vcxproj -> E:\Library\OneDrive\Documents\Code\C\game1\x64\Debug\game1.exe
